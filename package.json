@@ -1,0 +1,30 @@
+{
+  "name": "api-library",
+  "version": "1.0.0",
+  "description": "API for a library system.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinobiu/api-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinobiu/api-library/issues"
+  },
+  "homepage": "https://github.com/shinobiu/api-library#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.20",
+    "sucrase": "^3.29.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
